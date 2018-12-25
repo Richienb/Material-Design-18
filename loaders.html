@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
 
-  <head>
+<head>
 
     <title>Material Design</title>
 
-    <link rel="shortcut icon" type="image/png" href="assets/img/icon.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#1a73e8">
@@ -20,278 +20,229 @@
     <script src="assets/js/waves.min.js"></script>
     <script src="assets/js/material.min.js"></script>
 
-  </head>
+</head>
 
-  <body>
+<body>
 
     <nav>
 
-      <a id="menuTrigger" class="waves-effect waves-blue menu-trigger"><i class="material-icons menu">menu</i><i class="material-icons close">close</i></a>
+        <a id="menuTrigger" class="waves-effect waves-blue menu-trigger"><i class="material-icons menu">menu</i><i class="material-icons close">close</i></a>
 
-      <h1><img src="assets/img/icon.png" /> Material '18</h1>
+        <h1><img src="assets/img/icon.png" /> Material '18</h1>
 
     </nav>
 
     <div id="sidenav" class="sidenav waves-white">
 
-      <a href="index.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">home</i></span><span>Home</span></a>
-      <a href="setup.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">build</i></span><span>Setup the library</span></a>
-      <a href="buttons.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">dashboard</i></span><span>Buttons</span></a>
-      <a href="text-inputs.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">text_format</i></span><span>Text inputs</span></a>
-      <a href="other-inputs.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">adjust</i></span><span>Other inputs</span></a>
-      <a href="modals.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">computer</i></span><span>Modals</span></a>
-      <a href="headers.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">vertical_align_top</i></span><span>Headers</span></a>
-      <a href="toasts.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">info</i></span><span>Toasts</span></a>
-      <a href="icons.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">extension</i></span><span>Icons</span></a>
-      <a href="loaders.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">cached</i></span><span>Loaders</span></a>
-      <a href="cards.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">check_box_outline_blank</i></span><span>Cards</span></a>
+        <a href="index.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">home</i></span><span>Home</span></a>
+        <a href="setup.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">build</i></span><span>Setup the library</span></a>
+        <a href="buttons.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">dashboard</i></span><span>Buttons</span></a>
+        <a href="text-inputs.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">text_format</i></span><span>Text inputs</span></a>
+        <a href="other-inputs.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">adjust</i></span><span>Other inputs</span></a>
+        <a href="modals.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">computer</i></span><span>Modals</span></a>
+        <a href="headers.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">vertical_align_top</i></span><span>Headers</span></a>
+        <a href="toasts.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">info</i></span><span>Toasts</span></a>
+        <a href="icons.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">extension</i></span><span>Icons</span></a>
+        <a href="loaders.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">cached</i></span><span>Loaders</span></a>
+        <a href="cards.html" class="waves-effect waves-light-blue"><span class="sidenav-icon"><i class="material-icons">check_box_outline_blank</i></span><span>Cards</span></a>
 
     </div>
 
     <div id="main" class="main">
 
-      <h1 class="title">Loaders</h1>
-      <p class="subtitle">Loaders are used to let the user know, that the content of the site is processing and it will be loaded soon.</p>
+        <h1 class="title">Loaders</h1>
+        <p class="subtitle">Loaders are used to let the user know, that the content of the site is processing and it will be loaded soon.</p>
 
-      <h1>Linear loaders</h1>
+        <h1>Linear loaders</h1>
 
-      <p>Determinate</p>
+        <p>Determinate</p>
 
-      <div class="linear-loader">
+        <div class="linear-loader">
 
-        <div class="determinate" percentage="75"></div>
-
-      </div>
-
-      <textarea class="code" readonly><div class="linear-loader">
-  <div class="determinate" percentage="75"></div>
-</div></textarea>
-
-      <div class="linear-loader success">
-
-        <div class="determinate" percentage="25"></div>
-
-      </div>
-
-      <textarea class="code" readonly><div class="linear-loader success">
-  <div class="determinate" percentage="25"></div>
-</div></textarea>
-
-      <div class="linear-loader warning">
-
-        <div class="determinate" percentage="75"></div>
-
-      </div>
-
-      <textarea class="code" readonly><div class="linear-loader warning">
-  <div class="determinate" percentage="75"></div>
-</div></textarea>
-
-      <div class="linear-loader error">
-
-        <div class="determinate" percentage="50"></div>
-
-      </div>
-
-      <textarea class="code" readonly><div class="linear-loader error">
-  <div class="determinate" percentage="50"></div>
-</div></textarea>
-
-      <p>Indeterminate</p>
-
-      <div class="linear-loader">
-
-        <div class="indeterminate"></div>
-
-      </div>
-
-      <textarea class="code" readonly><div class="linear-loader">
-  <div class="indeterminate"></div>
-</div></textarea>
-
-      <div class="linear-loader success">
-
-        <div class="indeterminate"></div>
-
-      </div>
-
-      <textarea class="code" readonly><div class="linear-loader success">
-  <div class="indeterminate"></div>
-</div></textarea>
-
-      <div class="linear-loader warning">
-
-        <div class="indeterminate"></div>
-
-      </div>
-
-      <textarea class="code" readonly><div class="linear-loader warning">
-  <div class="indeterminate"></div>
-</div></textarea>
-
-      <div class="linear-loader error">
-
-        <div class="indeterminate"></div>
-
-      </div>
-
-      <textarea class="code" readonly><div class="linear-loader error">
-  <div class="indeterminate"></div>
-</div></textarea>
-
-      <h1>Circular loaders</h1>
-
-      <div class="circular-loader">
-
-        <div class="showbox">
-
-          <div class="loader">
-
-            <svg class="circular" viewBox="25 25 50 50">
-
-              <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-
-            </svg>
-
-          </div>
+            <div class="determinate" percentage="75"></div>
 
         </div>
 
-      </div>
+        <textarea class="code" readonly>
+            <div class="linear-loader">
+                <div class="determinate" percentage="75"></div>
+            </div>
+        </textarea>
 
-      <textarea class="code" style="height:200px;" readonly><div class="circular-loader">
-  <div class="loaderbox">
-    <div class="loader">
-      <svg class="circular" viewBox="25 25 50 50">
-        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-      </svg>
-    </div>
-  </div>
-</div></textarea>
+        <div class="linear-loader success">
 
-      <div class="circular-loader primary">
-
-        <div class="showbox">
-
-          <div class="loader">
-
-            <svg class="circular" viewBox="25 25 50 50">
-
-              <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-
-            </svg>
-
-          </div>
+            <div class="determinate" percentage="25"></div>
 
         </div>
 
-      </div>
+        <textarea class="code" readonly>
+            <div class="linear-loader success">
+                <div class="determinate" percentage="25"></div>
+            </div>
+        </textarea>
 
-      <textarea class="code" style="height:200px;" readonly><div class="circular-loader primary">
-  <div class="loaderbox">
-    <div class="loader">
-      <svg class="circular" viewBox="25 25 50 50">
-        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-      </svg>
-    </div>
-  </div>
-</div></textarea>
+        <div class="linear-loader warning">
 
-      <div class="circular-loader success">
-
-        <div class="showbox">
-
-          <div class="loader">
-
-            <svg class="circular" viewBox="25 25 50 50">
-
-              <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-
-            </svg>
-
-          </div>
+            <div class="determinate" percentage="75"></div>
 
         </div>
 
-      </div>
+        <textarea class="code" readonly>
+            <div class="linear-loader warning">
+                <div class="determinate" percentage="75"></div>
+            </div>
+        </textarea>
 
-      <textarea class="code" style="height:200px;" readonly><div class="circular-loader success">
-  <div class="loaderbox">
-    <div class="loader">
-      <svg class="circular" viewBox="25 25 50 50">
-        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-      </svg>
-    </div>
-  </div>
-</div></textarea>
+        <div class="linear-loader error">
 
-      <div class="circular-loader warning">
-
-        <div class="showbox">
-
-          <div class="loader">
-
-            <svg class="circular" viewBox="25 25 50 50">
-
-              <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-
-            </svg>
-
-          </div>
+            <div class="determinate" percentage="50"></div>
 
         </div>
 
-      </div>
+        <textarea class="code" readonly>
+            <div class="linear-loader error">
+                <div class="determinate" percentage="50"></div>
+            </div>
+        </textarea>
 
-      <textarea class="code" style="height:200px;" readonly><div class="circular-loader warning">
-  <div class="loaderbox">
-    <div class="loader">
-      <svg class="circular" viewBox="25 25 50 50">
-        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-      </svg>
-    </div>
-  </div>
-</div></textarea>
+        <p>Indeterminate</p>
 
-      <div class="circular-loader error">
+        <div class="linear-loader">
 
-        <div class="showbox">
-
-          <div class="loader">
-
-            <svg class="circular" viewBox="25 25 50 50">
-
-              <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-
-            </svg>
-
-          </div>
+            <div class="indeterminate"></div>
 
         </div>
 
-      </div>
+        <textarea class="code" readonly>
+            <div class="linear-loader">
+                <div class="indeterminate"></div>
+            </div>
+        </textarea>
 
-      <textarea class="code" style="height:200px;" readonly><div class="circular-loader error">
-  <div class="loaderbox">
-    <div class="loader">
-      <svg class="circular" viewBox="25 25 50 50">
-        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-      </svg>
-    </div>
-  </div>
-</div></textarea>
+        <div class="linear-loader success">
 
-      <footer>
+            <div class="indeterminate"></div>
 
-        <h1 class="title">Material '18</h1>
-        <h1>A library for the Material Design 2018 edition</h1>
-        <iframe src="https://ghbtns.com/github-btn.html?user=MartonDev&repo=Material-Design-18&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-        <h1 class="author">Made with ♥ by <a href="https://martondev.github.io" target="_blank">Marton</a></h1>
+        </div>
 
-      </footer>
+        <textarea class="code" readonly>
+            <div class="linear-loader success">
+                <div class="indeterminate"></div>
+            </div>
+        </textarea>
 
-    </div>
+        <div class="linear-loader warning">
 
-  </body>
+            <div class="indeterminate"></div>
+
+        </div>
+
+        <textarea class="code" readonly>
+            <div class="linear-loader warning">
+                <div class="indeterminate"></div>
+            </div>
+        </textarea>
+
+        <div class="linear-loader error">
+
+            <div class="indeterminate"></div>
+
+        </div>
+
+        <textarea class="code" readonly>
+            <div class="linear-loader error">
+                <div class="indeterminate"></div>
+            </div>
+        </textarea>
+
+        <h1>Circular loaders</h1>
+
+        <div class="circular-loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" />
+            </svg>
+        </div>
+
+        <textarea class="code" style="height:200px;" readonly>
+            <div class="circular-loader">
+                <div class="circular-loader">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" />
+                    </svg>
+                </div>
+        </textarea>
+
+        <div class="circular-loader primary">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" />
+            </svg>
+        </div>
+
+        <textarea class="code" style="height:200px;" readonly>
+            <div class="circular-loader primary">
+                <div class="circular-loader primary">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" />
+                    </svg>
+                </div>
+        </textarea>
+
+        <div class="circular-loader success">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" />
+            </svg>
+        </div>
+
+        <textarea class="code" style="height:200px;" readonly>
+            <div class="circular-loader success">
+                <div class="circular-loader success">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" />
+                    </svg>
+                </div>
+        </textarea>
+
+        <div class="circular-loader warning">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" />
+            </svg>
+        </div>
+
+        <textarea class="code" style="height:200px;" readonly>
+            <div class="circular-loader warning">
+                <div class="circular-loader warning">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" />
+                    </svg>
+                </div>
+        </textarea>
+
+        <div class="circular-loader error">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" />
+            </svg>
+        </div>
+
+        <textarea class="code" style="height:200px;" readonly>
+            <div class="circular-loader error">
+                <div class="circular-loader error">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" />
+                    </svg>
+                </div>
+        </textarea>
+
+        <footer>
+
+            <h1 class="title">Material '18</h1>
+            <h1>A library for the Material Design 2018 edition</h1>
+            <iframe src="https://ghbtns.com/github-btn.html?user=MartonDev&repo=Material-Design-18&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+            <h1 class="author">Made with ♥ by <a href="https://martondev.github.io" target="_blank">Marton</a></h1>
+
+        </footer>
+
+        </div>
+
+</body>
 
 </html>
