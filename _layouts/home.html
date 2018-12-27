@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<h1 class="name"><img src="src/img/icon.png" /><br />Material '18</h1>
+      <h1 class="sub-name-desc">A library for the Material Design 2018 edition</h1>
+
+      <p class="latest-commit" id="latestCommit"></p>
+
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              $.get("https://api.github.com/repos/MartonDev/Material-Design-18/commits/master", function(data) {
+                $("#latestCommit").html('Latest <a href="https://github.com/MartonDev/Material-Design-18" target="_blank">github</a> commit: ' + data["sha"] + ' - ' + data["commit"]["message"]);
+              });
+}, false);
+
+      </script>
+
+      <div class="video-presentation">
+
+        <div class="youtube-video">
+
+          <iframe src="https://www.youtube-nocookie.com/embed/NPjzUyax4tw?modestbranding=1&rel=0" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+
+      </div>
+
+      <div class="qna">
+
+        <h1 class="title">What is material design?</h1>
+        <p>Material Design is a visual language that synthesizes the classic principles of good design with the innovation of technology and science. <br />Material Design is now one of the leader design forms on the internet.</p>
+
+        <br />
+
+        <h1 class="title">Can I contribute either this website or the library?</h1>
+        <p>Yes, you absolutely can! One of my main goals is to make a library 100% free, and managed by the community. Please make a pull request on GitHub and I'll try to check it and pull it as soon as possible.</p>

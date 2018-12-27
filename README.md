@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="https://martondev.github.io/Material-Design-18/assets/img/icon.png" width="150" height="150">
+  <img src="src/img/icon.png" width="150" height="150">
 
 </p>
 

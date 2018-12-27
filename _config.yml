@@ -1,8 +1,8 @@
 title: Material '18
 description: >- # this means to ignore newlines until "baseurl:"
   A library for the Material Design 2018 edition.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://martondev.github.io/material-design-18" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/material-design-18" # the subpath of your site, e.g. /blog
+url: "https://martondev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -18,9 +18,5 @@ plugins:
   - jekyll-avatar
   - jemoji
   - jekyll-mentions
-  - jekyll-include-cache
-  
-port: 8080 # Default port
 
-includes:
-  - assets
+port: 8080 # Default port
