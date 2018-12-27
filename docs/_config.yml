@@ -21,3 +21,6 @@ plugins:
   - jekyll-include-cache
   
 port: 8080 # Default port
+
+includes:
+  - assets
